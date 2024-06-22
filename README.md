@@ -25,8 +25,9 @@ AWS_REGION=
 Setup Prisma
 
 ```bash
-  npx prisma generate
-  npx prisma migrate dev
+npx prisma generate
+npx prisma migrate dev
+npx prisma db seed
 ```
 
 Start the app
